@@ -22,9 +22,9 @@ AI อาจช่วยตรวจ grammar, formatting หรือควา�
 
 | Item | Answer |
 |---|---|
-| OJ problem number/title |  |
-| OJ submission ID, if submitted |  |
-| OJ status | Pass / Not Pass / Not Submit |
+| OJ problem number/title | 3111 สหกรณ์โรงเรียน |
+| OJ submission ID, if submitted |58500  |
+| OJ status | Pass  | 
 
 ---
 
@@ -46,7 +46,7 @@ Other: ...
 My answer:
 
 ```text
-
+gemini
 ```
 
 ---
@@ -59,16 +59,16 @@ My answer:
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. |  | Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
-| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |  | Briefly explain how you used or followed it |
-| I wrote my own problem understanding before asking AI for help. |  | Briefly say where you wrote it, such as `submission.md` or private note |
-| I wrote my own first plan before asking AI for help. |  | Briefly say where you wrote it |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. |  | Briefly explain |
+| I read the relevant workflow before using AI. |no  | Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
+| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |no | Briefly explain how you used or followed it |
+| I wrote my own problem understanding before asking AI for help. |yes  | Briefly say where you wrote it, such as `submission.md` or private note |
+| I wrote my own first plan before asking AI for help. |yes ใส่แล้ว submission.md  | Briefly say where you wrote it |
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | yes เพราะสงสัยแค่ตรง round half up นอกนั้นทำเอง | Briefly explain |
 
 ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
 ```text
-
+เหตุผลหลักๆเลยคือไม่ทราบว่ามีอะไรแบบนั้น บวกกับตอนทำงานดึกมาก เลยคิดไม่ทันขนาดนั้นค่ะ ว่าต้องทำอะไรแบบนั้น ขออภัยค่ะ
 ```
 
 ---
@@ -90,7 +90,7 @@ My answer:
 My answer:
 
 ```text
-
+ให้ช่วยตรงคำสั่ง round half up ว่าเอามาใช้ตรงไหน ยังไง ต้องเติมอะไร
 ```
 
 ---
@@ -111,7 +111,7 @@ My answer:
 My answer:
 
 ```text
-
+ืำให้ได้รุ้จักโค้ดใหม่ และรู้วิธีใช้คร่าวๆว่า decimal ไว้ใช้แก้ปัญหาความคลาดเคลื่อนของทศนิยมแบบ float 
 ```
 
 ---
@@ -132,7 +132,7 @@ My answer:
 My answer:
 
 ```text
-
+ลองทดสอบ code ใน VS Code เอาตรงเพิ่งรู้จักครั้งแรกเลยไม่ได้เอาไปปรับเปลี่ยนเยอะ ได้มาก็เอาไปเติมต่อจากที่เขียนอยุ่แล้ว
 ```
 
 ---
@@ -148,7 +148,7 @@ My answer:
 My answer:
 
 ```text
-
+รู้ว่ามีตัวแปรอื่นที่สามารถปัดเศาทศนิยมให้ง่ายขึ้นได้ก็คือ quantize(decimal()) และก็ตรงf-string ที่ใส่.4f แทนเพราะ floatค่าทศนิยมมันไม่เป๊ะมาก เลยเป็นการตัดขยะที่ปลายแถวทิ้ง บวกกับปกติ python จะปัดเข้าหาเลขคู่เช่น 45.545 เป็น 45.54 ทั้งๆลงท้ายด้วย 5 ควรปัดขึ้น
 ```
 
 ---
@@ -159,8 +159,8 @@ My answer:
 
 | Statement | Yes / No |
 |---|---|
-| I wrote this reflection in my own words. |  |
-| This reflection describes my real AI use. |  |
-| I checked AI's suggestions before using them. |  |
-| I can explain my final code. |  |
-| I did not ask AI to write this reflection for me. |  |
+| I wrote this reflection in my own words. |yes  |
+| This reflection describes my real AI use. |yes  |
+| I checked AI's suggestions before using them. | yes |
+| I can explain my final code. | no |
+| I did not ask AI to write this reflection for me. |yes  |
